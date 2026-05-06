@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade | Dialetus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3D78E3',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: white;
+            color: #1F2937;
+        }
+        .prose h2 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #111827;
+        }
+        .prose p {
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+            color: #4B5563;
+        }
+    </style>
+</head>
+<body>
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="https://ais-dev-u6kbrjopoqqqcqmqi6csfs-509062115689.us-west2.run.app/input_file_2.png" alt="Dialetus" class="w-10 h-10 object-contain">
+                <span class="font-display font-bold text-2xl tracking-tight text-primary">dialetus</span>
+            </a>
+            <a href="index.html" class="text-sm font-bold text-gray-500 hover:text-primary transition-colors flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Voltar ao início
+            </a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-5xl font-display font-bold mb-4 tracking-tight">Política de Privacidade</h1>
+            <p class="text-gray-400 italic mb-12">Última atualização: 6 de Maio de 2026</p>
+
+            <div class="prose">
+                <h2>1. Coleta de Informação</h2>
+                <p>O Dialetus coleta informações mínimas necessárias para o funcionamento do serviço de transcrição e tradução. Isso inclui áudios processados temporariamente para conversão em texto e dados de perfil configurados voluntariamente pelo usuário.</p>
+
+                <h2>2. Processamento de Voz e IA</h2>
+                <p>Seus dados de voz são processados em servidores seguros e criptografados de ponta a ponta. Utilizamos modelos de inteligência artificial de última geração para garantir a precisão. Nós não armazenamos áudios permanentemente a menos que o usuário utilize a função de sincronização em nuvem.</p>
+
+                <h2>3. Compartilhamento de Dados</h2>
+                <p>Nós não vendemos, alugamos ou compartilhamos suas transcrições ou dados pessoais com terceiros para fins publicitários. Os dados são utilizados estritamente para a prestação do serviço solicitado por você.</p>
+
+                <h2>4. Segurança</h2>
+                <p>Implementamos medidas de segurança físicas, técnicas e administrativas para proteger suas informações contra acesso não autorizado, perda ou alteração.</p>
+
+                <h2>5. Seus Direitos</h2>
+                <p>Você tem total direito de acessar, corrigir ou excluir seus dados a qualquer momento através das configurações do aplicativo ou entrando em contato com nossa equipe de suporte.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t border-gray-100 bg-gray-50 px-6">
+        <div class="max-w-7xl mx-auto text-center text-gray-400 font-bold text-sm">
+            Copyright © 2026 Dialetus. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
