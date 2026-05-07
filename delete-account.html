@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade | Dialetus</title>
+    <title>Excluir Conta | Dialetus</title>
     <meta name="description" content="Tradução em tempo real com alta fidelidade para facilitar sua comunicação global.">
-    
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dialetus.app/">
     <meta property="og:title" content="Dialetus | Sua voz, traduzida para o mundo">
@@ -42,18 +42,19 @@
             background-color: white;
             color: #1F2937;
         }
-        .prose h2 {
-            font-family: 'Outfit', sans-serif;
-            font-weight: 700;
-            font-size: 1.5rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            color: #111827;
-        }
         .prose p {
             line-height: 1.7;
-            margin-bottom: 1.25rem;
+            margin-bottom: 1.5rem;
             color: #4B5563;
+        }
+        .email-box {
+            background-color: #F3F4F6;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            font-family: monospace;
+            font-weight: 700;
+            text-align: center;
+            border: 1px dashed #D1D5DB;
         }
     </style>
 </head>
@@ -72,31 +73,50 @@
 
     <main class="pt-32 pb-20 px-6">
         <div class="max-w-3xl mx-auto">
-            <h1 class="text-5xl font-display font-bold mb-4 tracking-tight">Política de Privacidade</h1>
-            <p class="text-gray-400 italic mb-12">Última atualização: 6 de Maio de 2026</p>
+            <h1 class="text-5xl font-display font-bold mb-4 tracking-tight">Excluir Conta</h1>
+            <p class="text-gray-400 italic mb-12">Como solicitar a remoção dos seus dados.</p>
 
             <div class="prose">
-                <h2>1. Coleta de Informação</h2>
-                <p>O Dialetus coleta informações mínimas necessárias para o funcionamento do serviço de transcrição e tradução. Isso inclui áudios processados temporariamente para conversão em texto e dados de perfil configurados voluntariamente pelo usuário.</p>
+                <p>Para solicitar a exclusão da sua conta e todos os dados associados ao Dialetus, siga as instruções abaixo:</p>
+                
+                <div class="my-10 space-y-6">
+                    <div>
+                        <p class="text-sm uppercase font-bold text-gray-400 mb-2">1. Envie um e-mail para:</p>
+                        <div class="email-box text-primary text-xl">
+                            support@barrt.dev
+                        </div>
+                    </div>
 
-                <h2>2. Processamento de Voz e IA</h2>
-                <p>Seus dados de voz são processados em servidores seguros e criptografados de ponta a ponta. Utilizamos modelos de inteligência artificial de última geração para garantir a precisão. Nós não armazenamos áudios permanentemente a menos que o usuário utilize a função de sincronização em nuvem.</p>
+                    <div>
+                        <p class="text-sm uppercase font-bold text-gray-400 mb-2">2. Com o assunto:</p>
+                        <div class="bg-gray-50 p-4 rounded-lg font-bold border border-gray-200 text-center">
+                            "Delete Account Request"
+                        </div>
+                    </div>
+                </div>
 
-                <h2>3. Compartilhamento de Dados</h2>
-                <p>Nós não vendemos, alugamos ou compartilhamos suas transcrições ou dados pessoais com terceiros para fins publicitários. Os dados são utilizados estritamente para a prestação do serviço solicitado por você.</p>
+                <p class="font-medium text-gray-900 bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-8">
+                    <i data-lucide="info" class="w-5 h-5 text-primary inline-block mr-2 -mt-1"></i>
+                    Importante: Inclua no corpo da mensagem o endereço de e-mail que você utiliza no aplicativo para que possamos localizar sua conta.
+                </p>
 
-                <h2>4. Segurança</h2>
-                <p>Implementamos medidas de segurança físicas, técnicas e administrativas para proteger suas informações contra acesso não autorizado, perda ou alteração.</p>
-
-                <h2>5. Seus Direitos</h2>
-                <p>Você tem total direito de acessar, corrigir ou excluir seus dados a qualquer momento através das configurações do aplicativo ou entrando em contato com nossa equipe de suporte.</p>
+                <p class="text-sm text-gray-500 bg-gray-50 p-6 rounded-2xl">
+                    Os dados serão removidos em até 30 dias, exceto quando a retenção for necessária para o cumprimento de obrigações legais, prevenção contra fraudes ou registros financeiros obrigatórios.
+                </p>
             </div>
         </div>
     </main>
 
     <footer class="py-12 border-t border-gray-100 bg-gray-50 px-6">
-        <div class="max-w-7xl mx-auto text-center text-gray-400 font-bold text-sm">
-            Copyright © 2026 Dialetus. Todos os direitos reservados.
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-gray-400 font-bold text-sm">
+                Copyright © 2026 Dialetus. Todos os direitos reservados.
+            </div>
+            <div class="flex gap-8 text-sm font-bold text-gray-500">
+                <a href="privacy.html" class="hover:text-primary transition-colors">Privacidade</a>
+                <a href="terms.html" class="hover:text-primary transition-colors">Termos</a>
+                <a href="delete-account.html" class="hover:text-primary transition-colors">Excluir Conta</a>
+            </div>
         </div>
     </footer>
 
